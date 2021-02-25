@@ -12,7 +12,7 @@ Creates project to build/dist folder
 npm run build
 ```
 
-### To run main AppDev.vue development: 
+### To run AppDev.vue development: 
 ```
 npm run servesandbox
 ```
