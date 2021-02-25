@@ -1,24 +1,25 @@
-# multi-app
+# Multiple Vue apps with shared components and seperate builds 
+Sample on how to have 2 projects that share components, have seperate builds, and seperate development
 
 ## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
+### To run App.vue development: 
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
+### Compiles and minifies for production for App.vue
+Creates project to build/dist folder
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### To run main AppDev.vue development: 
 ```
-npm run lint
+npm run servesandbox
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Compiles and minifies for production for AppDev.vue
+Creates project to build/sandbox folder
+```
+npm run buildsandbox
+```
+

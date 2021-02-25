@@ -1,5 +1,5 @@
 <template>
-  <h1>This is Production App</h1>
+  <h1>This is Sandbox app</h1>
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
